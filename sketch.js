@@ -220,7 +220,7 @@ async function getBackgroundImg(){
   var hour = datetime.slice(11,13);
   
   if(hour>=06 && hour<=17){
-      bg = "day.jpeg";
+      bg = "day.jpeg"
   }
   else{
     bg="night.jpeg"
